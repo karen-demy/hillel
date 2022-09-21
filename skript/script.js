@@ -1,13 +1,16 @@
-const colorEyes = '#800000';
-let user ;
-let userName = 'Karina';
-user = userName;
-console.log (user);
-let myColorEyes ;
-myColorEyes = colorEyes;
-console.log (myColorEyes);
-console.log ('20' + '22');
-console.log (20 +22);
-console.log (typeof colorEyes);
-let age;
-console.log (typeof age);
+alert ('Я – JavaScript!');
+
+let name = 'Ivan';
+let admin ;
+admin = name ;
+alert (admin);
+
+let nameForPlanet;
+let curentUserName;
+
+alert (`привіт ${1}`);
+alert (`привіт ${"name"}`); 
+alert (`привіт ${name}`); 
+
+curentUserName = prompt('Як тебе звуть?');
+alert (`Привіт, ${curentUserName}!Ми раді знайомству)`);
