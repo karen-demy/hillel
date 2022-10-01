@@ -55,4 +55,4 @@ firstNumber = prompt ("Введіть перше число:");
 secondNumber = prompt ("Введіть друге число:");
 thirdNumber = prompt ("Введіть третє число:");
 average = (+firstNumber + +secondNumber + +thirdNumber)/3;
-alert (`Середне aрефметичне = ${average}`);
+alert (`Середне aрифметичне = ${average}`);
