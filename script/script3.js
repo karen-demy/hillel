@@ -1,4 +1,4 @@
-//Задачка 6
+
 
 let numOrStr = prompt('input number or string');
 console.log(numOrStr)
@@ -16,6 +16,7 @@ switch (isNaN(+numOrStr) || numOrStr &&  numOrStr.trim()){
   default:
     console.log('OK!');
 } 
+
 
 //Домашка 7
 //Цикл 1

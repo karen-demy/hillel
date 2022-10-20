@@ -76,5 +76,4 @@ if(person1.age<18){
   isEmpty(car1.year);
   isNumber(person1.age);
   isNumber(car1.year);
-
   
