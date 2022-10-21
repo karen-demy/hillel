@@ -50,6 +50,5 @@ console.log(cheeseBurger);
 console.log("Calories:" + cheeseBurger.calculateCalories());
 console.log("Price:" + cheeseBurger.calculatePrice());
 cheeseBurger.addSpice()
-cheeseBurger.addMayo()
-console.log("Price with sauce:" + cheeseBurger.cost);
+console.log("Price with changes:" + cheeseBurger.cost);
 console.log(cheeseBurger);
