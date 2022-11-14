@@ -7,6 +7,10 @@ class Apartment {
     constructor() {
 
     }  
+<<<<<<< HEAD
+    
+=======
+>>>>>>> 125c345ea2c60e89dc517471eea496f2f0bb283b
 }
 class ApartmentBuilding {
     apartments = {}

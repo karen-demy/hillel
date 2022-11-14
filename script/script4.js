@@ -17,7 +17,11 @@ arr.sort(function(a,b){
     return a - b ;
   });
   console.log(arr);
+<<<<<<< HEAD
+
+=======
   
+>>>>>>> 125c345ea2c60e89dc517471eea496f2f0bb283b
 
 arr.splice(2,3);
 console.log(arr);
@@ -51,7 +55,11 @@ console.log(mult);
 console.log(iteretionNumber10++);
 
 
+<<<<<<< HEAD
+
+=======
   
+>>>>>>> 125c345ea2c60e89dc517471eea496f2f0bb283b
 let getMinOfArray = numbers.find(item => item == Math.min.apply(null, numbers) );
 console.log(getMinOfArray);
 let getMinIndexOfArray = numbers.findIndex(item => item == Math.min.apply(null, numbers) );
@@ -70,7 +78,11 @@ for (let u of numbers) {
     }
 }
 console.log(iteretionNumber010);
+<<<<<<< HEAD
+
+=======
  
+>>>>>>> 125c345ea2c60e89dc517471eea496f2f0bb283b
 
 let iteretionNumber0010 = 0;  
 let sum010 = 0;
@@ -83,7 +95,11 @@ for (let w of numbers) {
 }
 console.log(iteretionNumber0010);
 console.log(sum010);
+<<<<<<< HEAD
+
+=======
  
+>>>>>>> 125c345ea2c60e89dc517471eea496f2f0bb283b
 let iteretionNumber00010 = 0; 
 let sum0010 = 0; 
 for (let e of numbers) {
@@ -94,7 +110,11 @@ for (let e of numbers) {
 }
 console.log(iteretionNumber00010);
 console.log(sum0010);
+<<<<<<< HEAD
+
+=======
  
+>>>>>>> 125c345ea2c60e89dc517471eea496f2f0bb283b
 let X = 0;
 for(let s of numbers){
     if(s != getMaxOfArray){
@@ -165,11 +185,19 @@ let users = [
     }
     ]
     usersBalance = [];
+<<<<<<< HEAD
+
+    for( let i = 0; i < users.length; i++){
+     usersBalance.push(users[i].balance);
+    };
+
+=======
     
     for( let i = 0; i < users.length; i++){
      usersBalance.push(users[i].balance);
     };
    
+>>>>>>> 125c345ea2c60e89dc517471eea496f2f0bb283b
 
    let delete$;
    for(let i = 0; i < usersBalance.length; i++) {
@@ -181,20 +209,32 @@ let users = [
     deleteComma = usersBalance[i].replace(/,/g, "");
     usersBalance[i]= deleteComma  ;
    }
+<<<<<<< HEAD
+
+=======
    
+>>>>>>> 125c345ea2c60e89dc517471eea496f2f0bb283b
    usersPhone = [];
    for(let i = 0; i < usersBalance.length; i++){
    if(usersBalance[i] > 2000) {
     usersPhone.push(users[i].phone);
 }};
 console.log (usersPhone);
+<<<<<<< HEAD
+
+=======
  
+>>>>>>> 125c345ea2c60e89dc517471eea496f2f0bb283b
 let sumOfBalance = 0;
 for(let i = 0; i < usersBalance.length; i++) {
     sumOfBalance = +sumOfBalance + +usersBalance[i];
 }
 console.log( `"$${sumOfBalance}"`);
+<<<<<<< HEAD
+
+=======
     
+>>>>>>> 125c345ea2c60e89dc517471eea496f2f0bb283b
  //Домашка 12
  //Реализуйте функцию removeElement(array, item), чтобы удалить элемент item из массива array.
 //Например:
@@ -264,7 +304,11 @@ doMath();
 
 //Написать функцию заполнения пользовательскими данными двумерного массива. Длину основного массива и внутренних массивов задаёт пользователь. Значения всех элементов всех массивов задаёт пользователь.
 function makeTwoDimArr (){
+<<<<<<< HEAD
+
+=======
     
+>>>>>>> 125c345ea2c60e89dc517471eea496f2f0bb283b
 const mainLenght = prompt('Введите длину основного массива');
 const subLenght = prompt('Введите длину внутренних массивов');
 
@@ -278,8 +322,13 @@ makeTwoDimArr ();
 
 
 //Создать функцию, которая убирает из строки все символы, которые мы передали вторым аргументом. 'func("hello world", ['l', 'd'])' вернет нам "heo wor". Исходную строку и символы для удаления задаёт пользователь
+<<<<<<< HEAD
+
+  function deleteSymbol() {
+=======
  //В этой задаче не могу понять как внести переменную со значениями которые мы хотим удалить в качестве второго аргумента, ведь этих значений может быть сколько угодно?Возможно для этого нужно какой-то другой вариант решения.Буду рада подсказке))
   function deleteSymbol(str1) {
+>>>>>>> 125c345ea2c60e89dc517471eea496f2f0bb283b
     str1 = prompt("Введите строку");
     let rrr = str1.split("");
     let numberOfSymbol = prompt("Введите количество символов, которое хотите удалить");
@@ -289,8 +338,24 @@ makeTwoDimArr ();
         result = iii;
     }
     let strResult = result.join("");
+<<<<<<< HEAD
+
+    //i = prompt("Введите символ, который необходимо удалить");
+    //let u = str1.replace(/i/g,"");
+
+
+    console.log(strResult);
+
+
+
+
+  } 
+
+ deleteSymbol();
+=======
     
     console.log(strResult);
   } 
 
  deleteSymbol();
+>>>>>>> 125c345ea2c60e89dc517471eea496f2f0bb283b
