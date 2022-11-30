@@ -2,6 +2,32 @@ html,body {
     height: 100%;
 }
 
+.page_text2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: auto;
+    border: 10px solid greenyellow;
+    background-color: azure;
+    box-shadow: 15px 5px 5px grey;
+    width: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 70px;
+    }
+    
+    .name {
+        font-size: 40px;
+        font-weight: 800;
+        margin-top: -20px;
+    }
+    
+    .icon {
+        max-width: 30%;
+    }
+
 .page {
     width: 100%;
     min-height: 100%;
@@ -23,10 +49,3 @@ html,body {
     object-fit: cover;
 }
 
-.page_text2 {
-    font-size: 25px;
-    align-self: flex-end;
-    color: black;
-    margin-right: 102px;
-
-}
