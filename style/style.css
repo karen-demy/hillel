@@ -30,25 +30,44 @@ html,body {
 
 }
 .focus {
+
+    margin-right: 589px;
+
     display: inline-block;
+
     height: 177px;
     width: 406px;
     }
     
+
+    .casper { 
+    position:absolute;
+    padding-top:69px ;
+    display: none;
+    top: 85px;
+    left: 532px;
+
     .casper {
     margin-left: 20px;   
     position: absolute; 
     display: none;
+
     color: black;
     text-align: center;
     font-size: 20px;
     background-color: aqua;
+
+    border: 2px solid blueviolet;
+    height: 108px;
     height: 177px;
+
     width: 406px;
     }
     
     .focus:focus ~ .casper {
+        
         display: inline-block;
+
     }
     
     .table {
