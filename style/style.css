@@ -5,7 +5,6 @@ html,body {
 .page {
     width: 100%;
     min-height: 100%;
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -30,3 +29,60 @@ html,body {
     margin-right: 102px;
 
 }
+.focus {
+    display: inline-block;
+    height: 177px;
+    width: 406px;
+    }
+    
+    .casper {
+    margin-left: 20px;   
+    position: absolute; 
+    display: none;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    background-color: aqua;
+    height: 177px;
+    width: 406px;
+    }
+    
+    .focus:focus ~ .casper {
+        display: inline-block;
+    }
+    
+    .table {
+    border: 5px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    }
+    .table td{
+    border: 5px solid black;
+    padding: 15px;
+    }
+    
+    .bigimage {
+        position: absolute;
+        z-index: 0;
+    }
+    
+    .first_input {
+        width: 227px;
+        height: 26px;
+    }
+    
+    .btn {
+        height: 32px;
+        font-size: 17px;
+    }
+    
+    .flexfather {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .label {
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0 20px;
+    }
